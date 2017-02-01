@@ -1,0 +1,19 @@
+{
+  "name": "tii-metrics",
+  "version": "0.0.1",
+  "description": "A wrapper for saving analytics data to third party services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@ghe.iparadigms.com:Integrations/tii-metrics.git"
+  },
+  "keywords": [
+    "metrics",
+    "analytics"
+  ],
+  "author": "James Robson",
+  "license": "MIT"
+}
