@@ -1,5 +1,5 @@
 {
-  "name": "tii-metrics",
+  "name": "lti-metrics",
   "version": "0.0.1",
   "description": "A wrapper for saving analytics data to third party services.",
   "main": "index.js",
