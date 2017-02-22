@@ -8,7 +8,7 @@ To add metric tracking to your app simply do the following:
 
 	Browser > Settings > Application Settings
 
-	In most cases this will already be done, usually in a Perl base template that loads the application. The snippet will determine the `appName` in New Relic.
+	In most cases this will already be done, usually in a base template of the application. The snippet will determine the `appName` in New Relic.
 
 	*Note:* The snippets which include metrics are _not_ included on development stages.
 
