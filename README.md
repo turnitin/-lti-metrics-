@@ -35,5 +35,5 @@ The `trackBehaviour` method accepts two arguments:
 ### Example Insights query
 
 ```
-SELECT count(*) FROM PageAction WHERE appName = 'Integrations: LTI FE Refactor' AND actionName = 'assignment-settings-saved' SINCE 1 day AGO FACET status TIMESERIES 1 hour 
+SELECT count(*) FROM PageAction WHERE appName = 'Integrations: LTI' AND actionName = 'assignment-settings-saved' SINCE 1 day AGO FACET status TIMESERIES 1 hour 
 ```
