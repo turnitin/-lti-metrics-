@@ -1,6 +1,6 @@
 /* global newrelic */
 
-let _ = require('underscore');
+var _ = require('underscore');
 
 module.exports = {
     trackBehaviour: function (name, attrs) {

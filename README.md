@@ -8,7 +8,7 @@ To add metric tracking to your app simply do the following:
 
 	Browser > Settings > Application Settings
 
-	In most cases this will already be done, usually in a Perl base template that loads the application. The snippet will determine the `appName` in New Relic.
+	In most cases this will already be done, usually in a base template of the application. The snippet will determine the `appName` in New Relic.
 
 	*Note:* The snippets which include metrics are _not_ included on development stages.
 
@@ -35,5 +35,5 @@ The `trackBehaviour` method accepts two arguments:
 ### Example Insights query
 
 ```
-SELECT count(*) FROM PageAction WHERE appName = 'Integrations: LTI FE Refactor' AND actionName = 'assignment-settings-saved' SINCE 1 day AGO FACET status TIMESERIES 1 hour 
+SELECT count(*) FROM PageAction WHERE appName = 'Integrations: LTI' AND actionName = 'assignment-settings-saved' SINCE 1 day AGO FACET status TIMESERIES 1 hour 
 ```
